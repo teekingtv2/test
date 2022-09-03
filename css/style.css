@@ -1,0 +1,232 @@
+/* 
+    Removing the default margin and padding 
+    from the tages
+*/
+body, h1, p, span {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Main web page's body */
+body {
+    width: 100vw;
+    height: 1200px;
+    background: green;
+}
+
+/* Top header styling */
+header {
+    height: 56px;
+    width: 100%;
+    background: white;
+    padding: 8px 50px;
+    box-sizing: border-box; 
+}
+.logo  {
+    float: left;
+}
+.primary-menu {
+    float: right;
+}
+.primary-menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+.primary-menu li a {
+    text-decoration: none;
+    color: #535353;
+    font-size: 18px;
+    font-weight: 600;
+}
+.primary-menu li a:hover {
+    background: #0a0924;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+.primary-menu li.sign-up a {
+    background: #253ab0;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    text-transform: uppercase;
+}
+.primary-menu li.sign-up a:hover {
+    background: #0a0924;
+}
+
+
+/* Header advertisement section */
+#header-ad {
+    height: 90px;
+    width: 100%;
+    background: #0a0924;
+    padding: 30px 100px;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+}
+
+#ad-logo {
+    display: inline;
+    background: #ffffff;
+    color: #0a0924;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 50%;
+    margin: 20px
+}
+
+
+#ad-text {
+    display: inline;
+    color: #ffffff;
+    margin: 20px;
+}
+
+#ad-button {
+    display: inline;
+    color: #ffffff;
+    background: #253ab0;
+    padding: 13px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 7px;
+    border: 0px;
+    text-decoration: none;
+}
+
+#ad-button:hover {
+    background: #ffffff;
+    color: #253ab0;
+    transition: ease-in 0.5s;
+}
+
+/* Introduction section */
+#introduction {
+    height: 500px;
+    width: 100vw;
+    background: #ffffff;
+    padding: 40px 50px;
+    box-sizing: border-box;
+}
+
+/* Left hand side */
+.banner {
+    width: 48%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.banner img {
+    width: 70%;
+}
+
+/* Right hand side */
+.banner-text {
+    width: 48%;
+    height: 100%;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.banner-text h1 {
+    font-size: 60px;
+    color: #1f1f1f;
+    margin-bottom: 20px;
+}
+
+.banner-text p{
+    font-size: 19px;
+    color: #1f1f1f;
+    line-height: 1.4em;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+form input#email {
+    width: 320px;
+    height: 50px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+form input#email::placeholder {
+    font-size: 16px;
+}
+
+form input#email:invalid {
+    border: 3px solid #6d5050;
+}
+
+form input#email:valid {
+    border: 5px solid green;
+}
+
+form input#submit {
+    width: 150px;
+    height: 50px;
+    background: #253ab0;
+    border: 0px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.banner-text span {
+    font-size: 17px;
+    color: #1f1f1f;
+}
+
+.banner-text span a {
+    text-decoration: none;
+}
+
+/* Page main section */
+main {
+    height: 450px;
+    width: 100%;
+    background: #0a0924;
+    padding: 50px 200px;
+    box-sizing: border-box;
+}
+
+main h2 {
+    color: #ffffff
+}
+
+main p {
+    color: #ffffff
+}
+
+/* Footer */
+footer {
+    height: 100px;
+    width: 100%;
+    background: #535353;
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer p {
+    font-size: 23px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 7px;
+}
+
+footer span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #dbd8d8
+}
